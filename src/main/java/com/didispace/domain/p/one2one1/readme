@@ -1,0 +1,7 @@
+双向级联：
+1对1关系，主表customer，从表address
+customer表
+字段：id，name
+address表
+字段：id address
+查询关联的时候就用个 customer.id = address.id

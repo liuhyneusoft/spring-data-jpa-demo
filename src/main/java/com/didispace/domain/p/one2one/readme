@@ -1,0 +1,4 @@
+单向级联：
+1对1关系，主表customer，从表address，customer有address的主键。
+customer
+id，name，address_id
